@@ -35,4 +35,18 @@ Lots 1 and 2 are more similar and have more similar p-values, that don’t point
 
 ![all_t_tests.jpg](https://github.com/NShan9297/MechaCar_Statistical_Analysis/blob/main/Photos/all_t_tests.jpg)
 
-## Deliverable 4
+## Study Design: MechaCar vs Competition 
+
+As MechaCar is a new prototype, looking to be produced in large amounts to be purchased by the general public, safety would be the most important variable. 
+
+In order to quantify the 'safety' of the the MechaCar v the competiton, items we would want to look at are the following:
+    -number of airbags
+    -placement of airbags
+    -materials used to make the car
+    -technology used in the car(whether this would be something distracting or not)
+    -number of accidents caused by vehicle issues
+    -fatalities from accidents due to car's manufacturing
+
+The best test for this would be t.testing, to see if there is a statistical difference between the distributions of all other cars and the MechaCar
+
+the data would need to be in the form of a compiled list such as our CSVs, quantitative items like number of airbags, number of accidents and number of fatalitites could be looked at with a two sample t-test and the variables such as pleacement of airbags and tech used could be better shown by a chi-sqared test
