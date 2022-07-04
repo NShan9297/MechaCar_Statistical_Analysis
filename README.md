@@ -12,11 +12,13 @@ The multiple r-squared value being 0.7149 suggests that more than 71% of the var
 
 As per the table, only half of the variables are significant which seems to point to overfittingthis overfitting means that this model will not be effective in predicting future data even though it works well for this dataset. 
 
+**insert linear regression here**
+
 
 ## Summary Statistics on Suspension Coils
 •	The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
-No, as per the lot_summary table, Lot3 has a variance of 170.29 pounds per square inch. Based on the design specifications, these cars will not meet the requirements. Lots 1 and 2, however, are much more similar to the design requirements
+No, as per the lot_summary table, Lot3 has a variance of 170.29 pounds per square inch. Based on the design specifications, these cars will not meet the requirements. Lots 1 and 2, however, are much more similar to the design requirements thus meet the requirements. 
 
 **pic of lot summary table**
 
@@ -32,3 +34,6 @@ When you take out Lot3, the numbers begin to look more like the design specifica
 Lots 1 and 2 are more similar and have more similar p-values, that don’t point to us rejecting the null hypothesis:
 **image of 1**
 **image of 2**
+
+
+## Deliverable 4
